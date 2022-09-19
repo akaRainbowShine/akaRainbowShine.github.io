@@ -24,6 +24,7 @@ gallery.querySelectorAll('img').forEach(function (item) {
         });
     }
 });
+resizeAll();
 window.addEventListener('resize', resizeAll);
 gallery.querySelectorAll('.gallery-item').forEach(function (item) {
     item.addEventListener('click', function () {        
